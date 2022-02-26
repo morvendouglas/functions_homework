@@ -3,13 +3,11 @@ def greet():
 
 greet()
 
-
 def greet():
     return "hey"
 
 greeting = greet()
 print(greeting)
-
 
 def greet(name):
     return "Hey " + name
@@ -17,14 +15,11 @@ def greet(name):
 greeting = greet("Morven")
 print(greeting)
 
-
 def greet(name, time_of_day):
     return "Good " + time_of_day + ", " + name
 
 greeting = greet('Bob', "morning")
 print(greeting)
-
-
 
 def greet(name, time_of_day):
   return "Good " + time_of_day + ", " + name
@@ -38,8 +33,6 @@ name_2 = "Amy"
 time_of_day_2 = "evening"
 greeting = greet(name_2, time_of_day_2)
 print(greeting)
-
-
 
 chickens = [
   { "name": "Margaret", "age": 2, "eggs": 0 },
@@ -57,7 +50,6 @@ for chicken in chickens:
 
 print(f"{total_eggs} eggs collected")
 
-
 chickens = [
   { "name": "Margaret", "age": 2, "eggs": 0 },
   { "name": "Hetty", "age": 1, "eggs": 2 },
@@ -65,7 +57,6 @@ chickens = [
   { "name": "Audrey", "age": 2, "eggs": 0 },
   { "name": "Mabel", "age": 5, "eggs": 1 },
 ]
-
 
 def count_eggs( list ):
     total_eggs = 0
@@ -77,18 +68,3 @@ def count_eggs( list ):
     return f"{total_eggs} eggs collected"
 
 print(count_eggs(chickens))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
